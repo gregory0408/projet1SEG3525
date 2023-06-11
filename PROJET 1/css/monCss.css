@@ -1,0 +1,275 @@
+body{
+background-color: #E4FAF9 ;
+
+}
+p{
+	font-family:Crimson Text;
+}
+
+#madent{
+	width: 60px; 
+	height: 40px; 
+	position: relative;
+	top: 5 px;
+	left: 30px;>
+	
+}
+#imageAccueil{
+	width: 200px; 
+	
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.left-div{
+	width: 40px;
+	left-div: left;
+}
+.middle-div{
+	width: 800px;
+	left-div: left;
+}
+
+.right-div{
+	
+}
+
+#contact{
+	float: left;
+	width: 50%;
+	background-color:#0F1515;
+	color:white;
+}
+#horaire{
+	float: right;
+	width: 50%;
+	background-color:#0F1515;
+	color:white;
+}
+#image-Accueil{
+	float: left;
+	width: 60%;
+	
+}
+#text-Accueil{
+	float: right;
+	width: 40%;
+}
+.milieu-accueil{
+	display: flex;
+	justify-content: space-between;
+}
+#dentiste1{
+	width: 175px;
+	
+}
+#dentiste2{
+	width: 175px;
+	
+}
+#dentiste3{
+	width: 155px;
+	
+}
+#image-dentiste1{
+	float: left;
+	width: 175px;
+}
+#image-dentiste2{
+	float: left;
+	width: 175px;;
+}
+#image-dentiste3{
+	float: left;
+	width: 160px;;
+}
+#rdv1{
+	float: left;
+	width: 600px;
+}
+#rdv2{
+	float: left;
+	width: 400px;
+	margin-left: 200px;
+}
+#image-cons{
+	float: left;
+	width : 35%;
+	margin-left: 20px;
+}
+#description-cons{
+	float: right;
+	width : 50%;
+	margin-left: 200px;
+	margin-top:0px;
+}
+/* Style du dropdown */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Style du bouton */
+    .dropdown-button {
+      background-color: #E4FAF9;
+      color: #154BC6;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    /* Style du contenu du dropdown */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Style des liens du dropdown */
+    .dropdown-content a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Changement du style des liens lorsque survolés */
+    .dropdown-content a:hover {
+      background-color: #f9f9f9;
+    }
+    
+    /* Affichage du contenu du dropdown lorsqu'il est ouvert */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+	
+	/* Styles pour la pop-up */
+    .popup-container {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      z-index: 999;
+    }
+
+    /* Styles pour l'arrière-plan sombre */
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 998;
+    }
+	
+	.Dentistes{
+		float:left;
+		width: 70%;
+
+	}
+	.description-dent{
+		float: right;
+		width: 25%;
+	}
+	#premier-dent{
+		float:left;
+		width:250px;
+		margin-left: 50px;
+	}
+	#deuxieme-dent{
+		float:left;
+		width:250px;
+		margin-left: 50px;
+	}
+	#troisieme-dent{
+		float:left;
+		width:220px;
+		margin-left: 50px;
+	}
+	#premier-hyg{
+		float:left;
+		width:250px;
+		margin-left: 50px;
+	}
+	#deuxieme-hyg{
+		float:left;
+		width:240px;
+		margin-left: 50px;
+	}
+	#troisieme-hyg{
+		float:left;
+		width:250px;
+		margin-left: 50px;
+	}
+	#assistant-dent1{
+		float:left;
+		width:200px;
+		margin-left: 130px;	
+	}
+	#assistant-dent2{
+		float:left;
+		width:200px;
+		margin-left: 300px;
+	}
+	#administratif1{
+		float:left;
+		width:250px;
+		margin-left: 130px;
+	}
+	#administratif2{
+		float:left;
+		width:200px;
+		margin-left: 300px;
+	}
+	
+	.comment-bar {
+		width: 400px;
+		margin: 0 auto;
+		padding: 20px;
+		border: 1px solid #ccc;
+	}
+
+	.comment-bar h2 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	#comment-input {
+		width: 100%;
+		height: 80px;
+		margin-bottom: 10px;
+	}
+
+	#comment-zone {
+		margin: 20px auto;
+		width: 400px;
+		padding: 10px;
+		border: 1px solid #ccc;
+		background-color: #f5f5f5;
+	}
+
+	.comment {
+		margin-bottom: 10px;
+		padding: 5px;
+		background-color: #f5f5f5;
+		border: 1px solid #ccc;
+	}
+	@media (max-width: 600px) {
+		div{
+			position: relative;
+			display: flex;
+			flex-direction:row;
+		}
+	}
